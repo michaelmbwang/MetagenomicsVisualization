@@ -1,0 +1,57 @@
+h1 { 
+  font-family: helvetica, arial, sans-serif; 
+  text-align:center; 
+  margin-top: 80px;
+}
+
+.phylum_taxonomy {
+  font-family: helvetica, arial, sans-serif; 
+  /*margin: 10px,10px,10px,100px;*/
+  font-size: 10px;
+  width: 450px;
+  height: 300px
+}
+
+path { fill: #83B0EA;}
+
+
+
+.domain { 
+		fill: none; 
+		stroke: #000; 
+		stroke-width: 1px; 
+	} 
+
+/*bar tootip#1*/
+.bar {
+  fill: steelblue;
+  fill-opacity: .9;
+}
+.bar_enter{
+  stroke: gray;
+  stroke-width: 0.5px;  
+}
+
+.toolTip {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 10px sans-serif;
+}
+/*.                */
+.y .tick line {
+    stroke: #ddd;
+}

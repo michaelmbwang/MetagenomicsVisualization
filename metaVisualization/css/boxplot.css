@@ -1,0 +1,60 @@
+body {
+}
+.box {
+  font: 10px sans-serif;
+}
+.box line,
+.box rect,
+.box circle {
+  stroke: grey;
+  stroke-width: 1px;
+}
+.box .center {
+  stroke:grey;
+  stroke-dasharray: 3,3;
+}
+.box .outlier {
+  fill: none;
+  stroke: #000;
+}
+.box .whisker{
+  stroke: grey;
+  stroke-width: 2px;
+}
+.axis {
+  font: 12px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.x.axis path { 
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.bar {
+  fill: steelblue;
+  fill-opacity: .9;
+}
+.toolTip {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    display: none;
+    width: 125px; /*hardcode!*/
+    height: auto;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 10px sans-serif;
+}

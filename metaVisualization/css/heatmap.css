@@ -1,0 +1,127 @@
+/************************************ heatmap *****************************/
+.labelRow text{
+	font-size:10px;
+}
+.labelColumn text{
+	font-size:7px;
+}
+
+.treeLeft {
+	stroke: gray;
+	stroke-width: 2;
+	fill: none;
+}
+/*.branchTreeLeft {
+    stroke: gray;
+    stroke-width: 2;
+    fill:none;
+}*/
+
+.treeTop {
+    stroke: gray;
+    stroke-width: 2;
+    fill: none;
+}
+
+/*.branchTreeTop{
+	stroke: gray;
+	stroke-width: 2;
+	fill:none;
+}*/
+
+.heatmap {
+	stroke: gray;
+	stroke-width: 0.5px;
+    opacity: 1;
+}
+
+/************************************ boxplot *****************************/
+.svg-wrapper {
+    text-align: center;
+}
+
+.boxplot {
+    font-size: 10px;
+}
+
+/* boxplot shapes */
+.boxplot line {
+    stroke: gray;
+    stroke-width: 1px;
+}
+
+g.whisker circle,
+.whole-box {
+    stroke: gray;
+    stroke-width: 0.5px;
+    /*fill: steelblue;*/
+}
+
+.center-line {
+    stroke-dasharray: 3,3;
+}
+
+g.whisker:hover line,
+g.whisker:hover circle {
+    stroke-width: 1px;
+}
+
+/* boxplot outliers */
+g.outlier circle {
+    stroke: gray;
+    fill-opacity: 0.5;
+}
+
+g.highlight circle {
+    fill: yellow;
+    stroke: #999;
+    fill-opacity: 1;
+}
+
+/* boxplot labels */
+.label {
+    fill: #999;
+    text-anchor: middle;
+    opacity: 0;
+}
+
+g:hover > .label,
+g.highlight > .label {
+    opacity: 1;
+}
+
+.xAxisBoxplot{
+    stroke: gray;
+    stroke-width: 0.5px;
+}
+.xAxisBoxplot path, .xAxisBoxplot line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    /*shape-rendering: crispEdges;*/
+}
+
+/************************************ barplot *****************************/
+.bar {
+	stroke: gray;
+	stroke-width: 0.5px;
+}
+
+.yAxisBarplot {
+	stroke: gray;
+	stroke-width: 0.5px;
+}
+
+.yAxisBarplot path, .yAxisBarplot line{
+	stroke: gray;
+	stroke-width: 1px;
+}
+
+.legendBarplot {
+    font-size: 10px;
+}
+
+/************************************ label *****************************/
+.labelCluster {
+	stroke-width: 2px;
+}
